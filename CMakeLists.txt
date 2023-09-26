@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.0 FATAL_ERROR)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
 if(COMMAND cmake_policy)
 	cmake_policy(SET CMP0003 NEW)
 endif(COMMAND cmake_policy)
@@ -19,7 +19,7 @@ install(TARGETS "cnpy" LIBRARY DESTINATION lib PERMISSIONS OWNER_READ OWNER_WRIT
 
 if(ENABLE_STATIC)
     add_library(cnpy-static STATIC "cnpy.cpp")
-    set_target_properties(cnpy-static PROPERTIES OUTPUT_NAME "cnpy")
+    set_target_properties(cnpy-static PROPERTIES OUTPUT_NAME "cnpys")
     install(TARGETS "cnpy-static" ARCHIVE DESTINATION lib)
 endif(ENABLE_STATIC)
 
