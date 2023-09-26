@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/cnpyTarget.cmake")
+
+# Dependencies
+include(CMakeFindDependencyMacro)
+find_dependency(ZLIB)

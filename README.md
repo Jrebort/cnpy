@@ -1,3 +1,7 @@
+# Repository Update Notice
+The original repository is no longer being updated. This fork is intended to extend the life of the repository by introducing additional features. We hope that these improvements will be beneficial to current users and attract new ones. Here are some of the recent updates:
+use_findpackage(cnpy)
+
 # Purpose:
 
 NumPy offers the `save` method for easy saving of arrays into .npy and `savez` for zipping multiple .npy arrays together into a .npz file. 
