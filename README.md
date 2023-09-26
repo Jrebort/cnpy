@@ -1,7 +1,7 @@
 # Repository Update Notice
 The original repository is no longer being updated. This fork is intended to extend the life of the repository by introducing additional features. We hope that these improvements will be beneficial to current users and attract new ones. Here are some of the recent updates:
 
-using `use_findpackage(cnpy)` to configure the library, which tested in visual studio 2022.
+1. using `use_findpackage(cnpy)` to configure the library, which tested in visual studio 2022.
 
 # Purpose:
 
